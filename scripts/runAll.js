@@ -1,7 +1,7 @@
 const [ /* node bin */, /* path to this script */, command] = process.argv;
 const spawn = require('child_process').spawnSync;
 const order = [
-  'monorepo-testing',
+  'monorepo-test',
   'lib1',
   'lib2'
 ];

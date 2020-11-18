@@ -5,7 +5,7 @@ const spawnedCommand = spawn('npm', [
   'run',
   command
 ], {
-  cwd: (project === 'monorepo-testing' ? '.' : `./wrappers/${project}`),
+  cwd: (project === 'monorepo-test' ? '.' : `./wrappers/${project}`),
   stdio: 'inherit'
 });
 
