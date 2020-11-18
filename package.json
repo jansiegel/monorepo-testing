@@ -7,7 +7,7 @@
   "scripts": {
     "in": "node scripts/delegateCommand.js",
     "all": "node scripts/runAll.js",
-    "build": "echo \"Build on root\" > result.txt"
+    "build": "echo \"Build on root\" > \"result.txt\""
   },
   "author": "",
   "license": "GPL",
