@@ -1,0 +1,12 @@
+{
+  "name": "lib2",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"Build on lib2\" > result.txt"
+  },
+  "author": "",
+  "license": "ISC"
+}

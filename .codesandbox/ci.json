@@ -1,0 +1,15 @@
+{
+  "buildCommand": "all build",
+  "packages": [
+    "packages/thisPackage",
+    "wrappers/lib1",
+    "wrappers/lib2"
+  ],
+  "publishDirectory": {
+    "lib1": "wrappers/lib1/result"
+  },
+  "sandboxes": [
+    "vanilla",
+    "new"
+  ]
+}

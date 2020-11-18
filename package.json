@@ -1,0 +1,20 @@
+{
+  "name": "monorepo-testing",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "in": "node scripts/delegateCommand.js",
+    "all": "node scripts/runAll.js",
+    "build": "echo \"Build on root\" > result.txt"
+  },
+  "author": "",
+  "license": "GPL",
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "wrappers/*"
+    ]
+  }
+}
