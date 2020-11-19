@@ -1,7 +1,6 @@
 {
   "buildCommand": "all build",
   "packages": [
-    ".",
     "wrappers/lib1",
     "wrappers/lib2"
   ],
