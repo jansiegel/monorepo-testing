@@ -1,8 +1,8 @@
 ---
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
+name: Vanilla
+about: Create an issue for the vanilla JS version of X.
+title: '[BUG] Something doesn\'t work'.
+labels: 'Vanilla'
 assignees: ''
 
 ---

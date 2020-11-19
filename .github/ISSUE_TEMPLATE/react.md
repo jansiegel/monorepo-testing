@@ -1,8 +1,8 @@
 ---
-name: Feature request
+name: `@sth/sth` react wrapper
 about: Suggest an idea for this project
 title: ''
-labels: ''
+labels: 'React'
 assignees: ''
 
 ---
