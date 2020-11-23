@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test:ci": "node scripts/runTargetedTests.js",
     "in": "node scripts/delegateCommand.js",
     "all": "node scripts/runAll.js",
-    "build": "echo \"Build on root\" > \"result.txt\""
+    "build": "echo \"Build on root\" > \"result.txt\"",
+    "test": "echo \"Test on root\""
   },
   "author": "",
   "license": "GPL",
