@@ -6,6 +6,9 @@
   "scripts": {
     "build": "node ./index.js > \"result.txt\""
   },
+  "dependencies": {
+    "randomstring": "^1.1.5"
+  },
   "author": "",
   "license": "ISC"
 }
