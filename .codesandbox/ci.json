@@ -1,5 +1,5 @@
 {
-  "buildCommand": "all build",
+  "buildCommand": "build-all",
   "packages": [
     "./",
     "packages/lib1",
