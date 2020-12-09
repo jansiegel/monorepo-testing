@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "echo \"Build on lib2\" > \"result.txt\""
+    "build": "node ./index.js > \"result.txt\""
   },
   "author": "",
   "license": "ISC"
