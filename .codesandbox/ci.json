@@ -10,5 +10,5 @@
     "lib1": "packages/lib1/result",
     "lib2": "packages/lib2"
   },
-  "node": "14"
+  "node": "15"
 }
