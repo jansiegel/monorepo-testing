@@ -2,15 +2,12 @@
   "buildCommand": "all build",
   "packages": [
     "./",
-    "wrappers/lib1",
-    "wrappers/lib2"
+    "packages/lib1",
+    "packages/lib2"
   ],
   "publishDirectory": {
     "monorepo-test": "./",
-    "lib1": "wrappers/lib1/result",
-    "lib2": "wrappers/lib2"
-  },
-  "sandboxes": [
-    "github/handsontable/examples/tree/master/vanilla/pull-request"
-  ]
+    "lib1": "packages/lib1/result",
+    "lib2": "packages/lib2"
+  }
 }

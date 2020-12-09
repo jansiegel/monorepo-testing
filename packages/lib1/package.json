@@ -1,11 +1,10 @@
 {
-  "name": "lib2",
+  "name": "lib1",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "echo \"Build on lib2\" > \"result.txt\"",
-    "test": "echo \"Test on lib2\""
+    "build": "echo \"Build on lib1\" > \"result/result.txt\"",
   },
   "author": "",
   "license": "ISC"
