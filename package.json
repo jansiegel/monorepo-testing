@@ -1,0 +1,17 @@
+{
+  "name": "monorepo-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"Build on root\" > \"result.txt\"",
+    "build-all": "npm run build && cd ./packages/lib1 && npm run build && cd ../lib2 && npm run build"
+  },
+  "author": "",
+  "license": "GPL",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}

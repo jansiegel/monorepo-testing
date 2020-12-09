@@ -1,0 +1,11 @@
+{
+  "name": "lib2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./index.js > \"result.txt\""
+  },
+  "author": "",
+  "license": "ISC"
+}

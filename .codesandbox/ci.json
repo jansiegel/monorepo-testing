@@ -1,0 +1,13 @@
+{
+  "buildCommand": "build-all",
+  "packages": [
+    "./",
+    "packages/lib1",
+    "packages/lib2"
+  ],
+  "publishDirectory": {
+    "monorepo-test": "./",
+    "lib1": "packages/lib1/result",
+    "lib2": "packages/lib2"
+  }
+}
